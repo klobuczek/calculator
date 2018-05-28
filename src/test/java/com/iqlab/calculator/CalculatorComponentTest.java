@@ -10,6 +10,7 @@ public class CalculatorComponentTest {
     @Test
     public void add() {
         assertEquals(3, calc.add(1,2));
+        assertEquals(4, calc.add(1,2));
     }
 
 }
