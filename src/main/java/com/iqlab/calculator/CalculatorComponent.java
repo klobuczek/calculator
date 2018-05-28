@@ -9,4 +9,8 @@ public class CalculatorComponent {
     public int add(int a, int b) {
         return a + b;
     }
+
+    private String a(String s) {
+       return s;
+    }
 }
